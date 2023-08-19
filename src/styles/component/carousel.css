@@ -1,0 +1,97 @@
+*, ::before ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 77rem;
+}
+
+.carousel {
+  margin: auto;
+  overflow: hidden;
+  height: 25rem;
+  width: 77rem;
+  border-radius: 1.5625rem;
+  position: relative;
+}
+
+.carousel-item {
+  display: inline-block;
+  width: 100%;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 25rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.carousel-inner {
+  white-space: nowrap;
+  transition: ease 1s;
+}
+
+.carousel-control {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  display: inline-block;
+  position: absolute;
+  width: 70px;
+  color: #f3f3f3;
+  cursor: pointer;
+  background: none;
+  z-index: 1;
+}
+.carousel-control.left {
+  top: 11em;
+  left: 1em;
+}
+.carousel-control.right {
+  top: 11em;
+  right: 1em;
+}
+
+.carousel-indicators {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 38em;
+  bottom: 1.5em;
+  top: 23em;
+  z-index: 2;
+}
+.carousel-indicators-item {
+  width: 15px;
+  height: 15px;
+  border: none;
+  background: #f3f3f3;
+  opacity: 0.5;
+  margin: 0.2em;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.carousel-indicators-item.active {
+  opacity: 1;
+}
+
+@media all and (min-width: 1px) and (max-width: 425px) {
+  .container-carousel {
+    width: 100%;
+    margin: 1em;
+  }
+  .carousel-control button {
+    top: 14em;
+  }
+  .carousel-control img {
+    width: 1.5rem;
+    height: 2rem;
+  }
+  .carousel-indicators {
+    left: 13em;
+  }
+}/*# sourceMappingURL=carousel.css.map */

@@ -1,0 +1,64 @@
+.Banniere {
+  width: 100%;
+  max-width: 1240px;
+  min-width: 240px;
+  height: 13.9375rem;
+  flex-shrink: 0;
+  border-radius: 1.5625rem;
+  margin: 1.5em;
+  position: relative;
+  background: #000;
+}
+.Banniere__IMG {
+  width: 100%;
+  height: 13.9375rem;
+  flex-shrink: 0;
+  border-radius: 1.5625rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.7000000119;
+}
+.Banniere__Texte {
+  color: white;
+  font-family: Montserrat;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 142.6%;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Banniere__Texte-mobile {
+  display: none;
+}
+
+@media all and (min-width: 1px) and (max-width: 425px) {
+  .Banniere {
+    width: 17rem;
+    height: 9rem;
+  }
+  .Banniere__IMG {
+    height: 9rem;
+  }
+  .Banniere__Texte {
+    display: flex;
+    position: absolute;
+    font-size: 1.5rem;
+    left: 1em;
+    display: none;
+  }
+  .Banniere__Texte-mobile {
+    display: block;
+    left: 1.5em;
+    top: 4em;
+    display: flex;
+    position: absolute;
+    font-size: 1.5rem;
+    color: white;
+  }
+}/*# sourceMappingURL=banner.css.map */

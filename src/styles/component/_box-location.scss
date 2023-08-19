@@ -1,0 +1,37 @@
+.box-location {
+    width: 100%;
+    max-width: 1240px;
+    height: 51.8125rem;
+    flex-shrink: 0;
+    border-radius: 1.5625rem;
+    background: #F6F6F6;
+    margin:2em;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+
+}
+
+@media (max-width:768px) {
+
+    .box-location{
+        background: none;
+    }
+
+    
+
+  
+}
+
+
+@media (max-width:425px) {
+
+.box-location{
+    width: 89%;
+    background: none;
+    margin: 1em;
+}
+
+
+}

@@ -1,0 +1,125 @@
+.bloc-produit {
+  width: 100%;
+  max-width: 1240px;
+  min-width: 250px;
+  margin: 20px auto;
+}
+
+.productPage__pres {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.productPage__title {
+  color: #FF6060;
+}
+
+.productPage__title h1 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.productPage__title p {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.blocTag {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.tagBox {
+  background-color: #FF6060;
+  color: white;
+  border-radius: 0.625rem;
+  padding: 0.2em;
+  margin: 0.2em;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 4px;
+  width: 120px;
+  height: 25px;
+}
+
+.productPage__rating {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+.host {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nom-hote {
+  color: #FF6060;
+  width: 3em;
+  font-weight: 500;
+}
+
+.image-hote {
+  width: 4rem;
+  border-radius: 50%;
+}
+
+.star {
+  width: 30px;
+}
+
+.bloc-logement-dropdown {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+
+.equipments__list {
+  visibility: visible;
+  color: red;
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.standard-box__logement {
+  width: 582px;
+}
+
+@media all and (min-width: 1px) and (max-width: 425px) {
+  .productPage__pres {
+    flex-direction: column;
+  }
+  .productPage__rating {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 2em;
+  }
+  .rating-star {
+    display: flex;
+  }
+  .star {
+    width: 1.5em;
+  }
+  .nom-hote {
+    width: 3em;
+    margin-right: 1em;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .bloc-logement-dropdown {
+    flex-direction: column;
+  }
+  .standard-box__logement {
+    width: 100%;
+  }
+}/*# sourceMappingURL=Fiche_Logement.css.map */
