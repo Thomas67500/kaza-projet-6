@@ -645,10 +645,4 @@
 
 .carte__contenu {
   height: 100%;
-}
-
-@media (max-width: 768px) {
-  .carte {
-    width: 70%;
-  }
 }/*# sourceMappingURL=styles.css.map */
