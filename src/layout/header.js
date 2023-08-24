@@ -11,7 +11,7 @@ return (
     <div className="Header">
     <img src={logo} alt="Logo"/>
  <nav className="Header-nav">
-<Link to='/' className="link-decoration">Accueil</Link>
+<Link to='/#' className="link-decoration">Accueil</Link>
 <Link to='/A_Propos' className="link-decoration">A Propos</Link>
  </nav>
  </div>
