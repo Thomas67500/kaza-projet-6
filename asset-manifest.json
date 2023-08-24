@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/kaza-projet-6/static/css/main.f53ff35f.css",
+    "main.js": "/kaza-projet-6/static/js/main.fa9d9ba2.js",
+    "static/js/787.b65c18e9.chunk.js": "/kaza-projet-6/static/js/787.b65c18e9.chunk.js",
+    "static/media/Propos_IMG.png": "/kaza-projet-6/static/media/Propos_IMG.abab3f12f4cb82f1dfa1.png",
+    "static/media/IMG.png": "/kaza-projet-6/static/media/IMG.d00ae7dd3ef927bb988d.png",
+    "index.html": "/kaza-projet-6/index.html",
+    "static/media/emptystar.svg": "/kaza-projet-6/static/media/emptystar.ae969662d77c07fdced4114f41bf3e69.svg",
+    "static/media/fullstar.svg": "/kaza-projet-6/static/media/fullstar.4949d967956f67c591576c1c58b597ba.svg",
+    "main.f53ff35f.css.map": "/kaza-projet-6/static/css/main.f53ff35f.css.map",
+    "main.fa9d9ba2.js.map": "/kaza-projet-6/static/js/main.fa9d9ba2.js.map",
+    "787.b65c18e9.chunk.js.map": "/kaza-projet-6/static/js/787.b65c18e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f53ff35f.css",
+    "static/js/main.fa9d9ba2.js"
+  ]
+}
